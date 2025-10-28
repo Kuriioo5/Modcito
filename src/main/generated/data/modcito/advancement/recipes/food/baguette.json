@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_baguette": {
+      "conditions": {
+        "items": [
+          {
+            "items": "modcito:baguette"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "modcito:baguette"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_baguette"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "modcito:baguette"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": "minecraft:water_bucket",
+    "s": "minecraft:sugar",
+    "w": "minecraft:wheat"
+  },
+  "pattern": [
+    "swb"
+  ],
+  "result": {
+    "count": 3,
+    "id": "modcito:yeast"
+  }
+}

@@ -1,0 +1,19 @@
+// 1.21.10	-999999999-01-01T00:00:00	Modcito/Modcito Recipes
+260ecd04f5c13eddff7c41fd88a8074dde09e6a8 data/modcito/advancement/recipes/food/arepa.json
+4dab9ce813bab95cbbb6daf35a7c5d8765bc0ce8 data/modcito/advancement/recipes/food/baguette.json
+3deefc4f57dae1ed81639e3b33bac1a252a2db3b data/modcito/advancement/recipes/food/butter.json
+7f1cbea226ac84e0d73701f83d0d469c0692ef68 data/modcito/advancement/recipes/food/cheese.json
+54096467ca4ff26b456946fb9ecfdee88be4b1ce data/modcito/advancement/recipes/food/croissant_from_smelting_dough.json
+a45d0b4124836dbc99ad6b4b3920c5cdff7221d1 data/modcito/advancement/recipes/food/dough.json
+ccde10256b804ad150d3853ba2cee170eb0898a1 data/modcito/advancement/recipes/food/flour.json
+23c0a9871d3a877b3fa710931c00f1fa47d7b75a data/modcito/advancement/recipes/food/salt.json
+62db334859666da2d810f5a62f38579bf611625e data/modcito/advancement/recipes/food/yeast.json
+2d8e239f3140b7adb5abfdb74328d396e9fb1686 data/modcito/recipe/arepa.json
+55434044510af93f7c7691a7dc5b24b98b9bfa6b data/modcito/recipe/baguette.json
+130244a07723e4a02319360f8ab58bcc1cefd58c data/modcito/recipe/butter.json
+6e5e870b5d35cc244abfc19fb4516962c5cc9025 data/modcito/recipe/cheese.json
+1e026b1ee33e69d76e2896d72eadc7cb594eb586 data/modcito/recipe/croissant_from_smelting_dough.json
+4dc39cecba93103ec8358a8da4e1e82bb437d9e0 data/modcito/recipe/dough.json
+7024eba9f4a13b44d254acaddedee5b0fa319822 data/modcito/recipe/flour.json
+fb94e4ac42e98eb34e390d605bea29d7fe343408 data/modcito/recipe/salt.json
+42a6d8d1d97ee5b6647b1405fd73122d0558b4b3 data/modcito/recipe/yeast.json

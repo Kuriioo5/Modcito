@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_arepa": {
+      "conditions": {
+        "items": [
+          {
+            "items": "modcito:arepa"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "modcito:arepa"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_arepa"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "modcito:arepa"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": "modcito:salt",
+    "b": "modcito:butter",
+    "f": "modcito:flour",
+    "m": "minecraft:milk_bucket",
+    "s": "minecraft:sugar",
+    "y": "modcito:yeast"
+  },
+  "pattern": [
+    "bfs",
+    "Sym"
+  ],
+  "result": {
+    "count": 10,
+    "id": "modcito:dough"
+  }
+}

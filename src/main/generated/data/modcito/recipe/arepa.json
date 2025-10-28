@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": "modcito:cheese",
+    "f": "modcito:flour",
+    "w": "minecraft:water_bucket"
+  },
+  "pattern": [
+    "fwc"
+  ],
+  "result": {
+    "count": 2,
+    "id": "modcito:arepa"
+  }
+}

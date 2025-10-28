@@ -3,9 +3,9 @@
 	"id": "modcito",
 	"version": "${version}",
 	"name": "Modcito",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Modcito adds multiple food to your games.",
 	"authors": [
-		"Me!"
+		"Kuriioo"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
