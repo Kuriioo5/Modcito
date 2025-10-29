@@ -48,7 +48,7 @@ public class ModItems {
   }
 
   public static void init() {
-
+    
     ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK)
       .register((g) -> {
         g.add(AREPA);
