@@ -9,12 +9,13 @@ import net.modcito.item.ModItems;
 import java.util.concurrent.CompletableFuture;
 
 public class ModLootTableProvider extends FabricBlockLootTableProvider {
-    public ModLootTableProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registryLookup) {
-        super(output, registryLookup);
-    }
 
-    @Override
-    public void generate() {
-        addDrop(Blocks.SUNFLOWER, ModItems.OIL);
-    }
+  public ModLootTableProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registryLookup) {
+    super(output, registryLookup);
+  }
+
+  @Override
+  public void generate() {
+   addDrop(Blocks.SUNFLOWER, ModItems.OIL);
+  }
 }

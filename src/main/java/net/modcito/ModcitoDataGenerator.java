@@ -7,12 +7,13 @@ import net.modcito.datagen.ModModelProvider;
 import net.modcito.datagen.ModRecipeProvider;
 
 public class ModcitoDataGenerator implements DataGeneratorEntrypoint {
+
 	@Override
 	public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
-        FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
+    FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
 
-        pack.addProvider(ModModelProvider::new);
-        pack.addProvider(ModLootTableProvider::new);
-        pack.addProvider(ModRecipeProvider::new);
+    pack.addProvider(ModModelProvider::new);
+    pack.addProvider(ModLootTableProvider::new);
+    pack.addProvider(ModRecipeProvider::new);
 	}
 }

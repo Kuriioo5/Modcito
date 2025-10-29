@@ -13,6 +13,6 @@ public class Modcito implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-        ModItems.init();
+    ModItems.init();
 	}
 }
