@@ -20,7 +20,10 @@
 		],
 		"fabric-datagen": [
 			"net.modcito.ModcitoDataGenerator"
-		]
+		],
+    "client": [
+      "net.modcito.ModcitoClient"
+    ]
 	},
 	"mixins": [
 		"modcito.mixins.json"

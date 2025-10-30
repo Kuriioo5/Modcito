@@ -9,5 +9,9 @@
   "item.modcito.oil": "Oil",
   "item.modcito.patacones": "Patacones",
   "item.modcito.salt": "Salt",
-  "item.modcito.yeast": "Yeast"
+  "item.modcito.yeast": "Yeast",
+  "item.modcito.sushi": "Sushi",
+  "item.modcito.rice_bowl": "Rice Bowl",
+  "item.modcito.rice_seeds": "Rice Seeds",
+  "block.modcito.rice_crop": "Rice Crop"
 }

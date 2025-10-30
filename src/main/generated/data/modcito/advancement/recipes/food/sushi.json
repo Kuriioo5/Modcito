@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sushi": {
+      "conditions": {
+        "items": [
+          {
+            "items": "modcito:sushi"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "modcito:sushi"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_sushi"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "modcito:sushi"
+    ]
+  }
+}

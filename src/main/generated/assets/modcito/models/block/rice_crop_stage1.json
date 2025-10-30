@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "modcito:block/rice_crop_stage1"
+  }
+}

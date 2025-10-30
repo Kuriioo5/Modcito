@@ -6,7 +6,9 @@
 54096467ca4ff26b456946fb9ecfdee88be4b1ce data/modcito/advancement/recipes/food/croissant_from_smelting_dough.json
 a45d0b4124836dbc99ad6b4b3920c5cdff7221d1 data/modcito/advancement/recipes/food/dough.json
 ccde10256b804ad150d3853ba2cee170eb0898a1 data/modcito/advancement/recipes/food/flour.json
+622ac1f1478ae8a451d311d092a24ab99006b0dc data/modcito/advancement/recipes/food/rice_bowl.json
 23c0a9871d3a877b3fa710931c00f1fa47d7b75a data/modcito/advancement/recipes/food/salt.json
+204ac66d7ea331223a8a2370979a5455bb2519c1 data/modcito/advancement/recipes/food/sushi.json
 62db334859666da2d810f5a62f38579bf611625e data/modcito/advancement/recipes/food/yeast.json
 2d8e239f3140b7adb5abfdb74328d396e9fb1686 data/modcito/recipe/arepa.json
 55434044510af93f7c7691a7dc5b24b98b9bfa6b data/modcito/recipe/baguette.json
@@ -15,5 +17,7 @@ ccde10256b804ad150d3853ba2cee170eb0898a1 data/modcito/advancement/recipes/food/f
 1e026b1ee33e69d76e2896d72eadc7cb594eb586 data/modcito/recipe/croissant_from_smelting_dough.json
 4dc39cecba93103ec8358a8da4e1e82bb437d9e0 data/modcito/recipe/dough.json
 7024eba9f4a13b44d254acaddedee5b0fa319822 data/modcito/recipe/flour.json
+8ecfda55714d1472f57ea4ed5b7ee9d4e8f66505 data/modcito/recipe/rice_bowl.json
 fb94e4ac42e98eb34e390d605bea29d7fe343408 data/modcito/recipe/salt.json
+de126023a71d55e1d70a07ba2d2d0030d7290d01 data/modcito/recipe/sushi.json
 42a6d8d1d97ee5b6647b1405fd73122d0558b4b3 data/modcito/recipe/yeast.json

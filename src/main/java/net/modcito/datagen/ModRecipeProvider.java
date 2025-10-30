@@ -75,6 +75,22 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         .criterion(hasItem(ModItems.SALT), conditionsFromItem(ModItems.SALT))
         .offerTo(exporter);
 
+      createShaped(RecipeCategory.FOOD, ModItems.SUSHI, 4)
+        .pattern("Ssr")
+        .input('S', Items.SALMON)
+        .input('s', Items.DRIED_KELP)
+        .input('r', ModItems.RICE_BOWL)
+        .criterion(hasItem(ModItems.SUSHI), conditionsFromItem(ModItems.SUSHI))
+        .offerTo(exporter);
+
+      createShaped(RecipeCategory.FOOD, ModItems.RICE_BOWL)
+        .pattern("rrr")
+        .pattern(" b ")
+        .input('r', ModItems.RICE_SEEDS)
+        .input('b', Items.BOWL)
+        .criterion(hasItem(ModItems.RICE_BOWL), conditionsFromItem(ModItems.RICE_BOWL))
+        .offerTo(exporter);
+
       createShaped(RecipeCategory.FOOD, ModItems.YEAST, 3)
         .pattern("swb")
         .input('s', Items.SUGAR)

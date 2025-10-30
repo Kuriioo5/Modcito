@@ -1,6 +1,7 @@
 package net.modcito.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
@@ -9,6 +10,7 @@ import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
 import net.modcito.Modcito;
+import net.modcito.block.ModBlocks;
 import net.modcito.component.type.ModFoodComponents;
 
 import java.util.function.Function;
@@ -38,7 +40,16 @@ public class ModItems {
   public static Item PATACONES = register("patacones",
       settings -> new Item(settings.food(ModFoodComponents.PATACONES)));
 
+  public static Item RICE_BOWL = register("rice_bowl",
+      settings -> new Item(settings.food(ModFoodComponents.RICE_BOWL)));
+
+  public static Item RICE_SEEDS = register("rice_seeds",
+      settings -> new BlockItem(ModBlocks.RICE_CROP, settings));
+
   public static Item SALT = register("salt", Item::new);
+
+  public static Item SUSHI = register("sushi",
+      settings -> new Item(settings.food(ModFoodComponents.SUSHI)));
 
   public static Item YEAST = register("yeast", Item::new);
 
@@ -56,6 +67,9 @@ public class ModItems {
         g.add(CHEESE);
         g.add(CROISSANT);
         g.add(PATACONES);
+        g.add(RICE_BOWL);
+        g.add(RICE_SEEDS);
+        g.add(SUSHI);
     });
 
     ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS)

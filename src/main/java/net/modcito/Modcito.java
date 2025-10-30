@@ -1,7 +1,7 @@
 package net.modcito;
 
 import net.fabricmc.api.ModInitializer;
-
+import net.modcito.block.ModBlocks;
 import net.modcito.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,5 +14,7 @@ public class Modcito implements ModInitializer {
 	@Override
 	public void onInitialize() {
     ModItems.init();
+    ModBlocks.init();
 	}
+
 }

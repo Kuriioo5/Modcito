@@ -5,6 +5,8 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.minecraft.client.data.BlockStateModelGenerator;
 import net.minecraft.client.data.ItemModelGenerator;
 import net.minecraft.client.data.Models;
+import net.modcito.block.ModBlocks;
+import net.modcito.block.custom.RiceCropBlock;
 import net.modcito.item.ModItems;
 
 public class ModModelProvider extends FabricModelProvider {
@@ -15,7 +17,7 @@ public class ModModelProvider extends FabricModelProvider {
 
   @Override
   public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-
+    blockStateModelGenerator.registerCrop(ModBlocks.RICE_CROP, RiceCropBlock.AGE, 0, 1, 2, 3, 4, 5, 6);
   }
 
   @Override
@@ -29,7 +31,9 @@ public class ModModelProvider extends FabricModelProvider {
     itemModelGenerator.register(ModItems.FLOUR, Models.GENERATED);
     itemModelGenerator.register(ModItems.OIL, Models.GENERATED);
     itemModelGenerator.register(ModItems.PATACONES, Models.GENERATED);
+    itemModelGenerator.register(ModItems.RICE_BOWL, Models.GENERATED);
     itemModelGenerator.register(ModItems.SALT, Models.GENERATED);
+    itemModelGenerator.register(ModItems.SUSHI, Models.GENERATED);
     itemModelGenerator.register(ModItems.YEAST, Models.GENERATED);
   }
 

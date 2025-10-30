@@ -1,4 +1,5 @@
 // 1.21.10	-999999999-01-01T00:00:00	Modcito/Model Definitions
+9ebae37efcf364a4981569e5df54175b69a7eb3a assets/modcito/blockstates/rice_crop.json
 63dd26341e57d378c48e087257d0457b80c370a9 assets/modcito/items/arepa.json
 ffb919f500fbc1d03118436315aa95cf71cb1efe assets/modcito/items/baguette.json
 1ecdacb7958b6ef7502565d70b55110fba1d5a2c assets/modcito/items/butter.json
@@ -8,8 +9,18 @@ d3b99bdd46530f6eb65bd028749dc3a9845f8ada assets/modcito/items/dough.json
 b65b134e9050cfeba1985f85e066677a40597d03 assets/modcito/items/flour.json
 a04d52e3951104b54b8a9560dc60fb57858bd5dc assets/modcito/items/oil.json
 8ebc7427a1a3e6fcdf1682447ce19f9f8446926b assets/modcito/items/patacones.json
+6e990469ce199dfd0281f1748d93b5b594012ecb assets/modcito/items/rice_bowl.json
+caf4fa8da04ddf4ab16103c46e77b7013563dcd6 assets/modcito/items/rice_seeds.json
 a1e704c693edb3310fc954a17f84c9f2a4438b15 assets/modcito/items/salt.json
+d02351b3ebcd13e0288eae106a854dce718540d0 assets/modcito/items/sushi.json
 8a5f8325fbe6d9edca788ca84472ead1ebb9fd62 assets/modcito/items/yeast.json
+bec4fa64d89904d50dff6b5e4fdafe4c39ead727 assets/modcito/models/block/rice_crop_stage0.json
+2660b2163c91a3562d4014c2e899e588c1d06ca6 assets/modcito/models/block/rice_crop_stage1.json
+e7ab8cfd8103bf60b532154f588abfa3e7fa5bc3 assets/modcito/models/block/rice_crop_stage2.json
+b8ecb44863a0e90b302acb7b26090523e9d255b2 assets/modcito/models/block/rice_crop_stage3.json
+fe4a586137ae46637a6b35a7ef1462f9527953d4 assets/modcito/models/block/rice_crop_stage4.json
+70a6bb5c3fa8163880c257c4a2a25c8319b69d87 assets/modcito/models/block/rice_crop_stage5.json
+121e0809ac64927ae85de2d10f927f4c788caf93 assets/modcito/models/block/rice_crop_stage6.json
 dcb28086c668b77de3dd9f4c6c158e337fb5a5fc assets/modcito/models/item/arepa.json
 60c58f1e2559ec84ea67ff4df07a4a31a3cdf314 assets/modcito/models/item/baguette.json
 ce73d7df51aa5c50e5c541e261e851adc590bda6 assets/modcito/models/item/butter.json
@@ -19,5 +30,8 @@ a27c0c13e5330bac85d689b6e5ad713b65ab17d3 assets/modcito/models/item/dough.json
 c0c0280978ad33447f720c86b098c56b73b8bbe4 assets/modcito/models/item/flour.json
 25a1f3417240a6b530d0335e5fbaff2ac829e0ab assets/modcito/models/item/oil.json
 c541dc52b635700817132ca6476327ee1e82f5e7 assets/modcito/models/item/patacones.json
+ef8b2826815e27f153f1961b482c01935c1ffcc5 assets/modcito/models/item/rice_bowl.json
+91cbe80447d81c919c919c8143491ff53277f781 assets/modcito/models/item/rice_seeds.json
 df8932d84e81e5f004214464f6b38dcd588d5a89 assets/modcito/models/item/salt.json
+a0cd052fd7e004341e21fdf6e41a64036b9b7180 assets/modcito/models/item/sushi.json
 89d5e56bf205a1ac3f842a568758054693bf8f89 assets/modcito/models/item/yeast.json

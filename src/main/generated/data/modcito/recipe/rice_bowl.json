@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": "minecraft:bowl",
+    "r": "modcito:rice_seeds"
+  },
+  "pattern": [
+    "rrr",
+    " b "
+  ],
+  "result": {
+    "count": 1,
+    "id": "modcito:rice_bowl"
+  }
+}

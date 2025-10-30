@@ -16,4 +16,5 @@ public class ModcitoDataGenerator implements DataGeneratorEntrypoint {
     pack.addProvider(ModLootTableProvider::new);
     pack.addProvider(ModRecipeProvider::new);
 	}
+
 }
